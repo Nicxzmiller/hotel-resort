@@ -133,7 +133,7 @@ h6 {
 }
 
 .show-nav {
-  height: 100px;
+  height:auto;
 }
 @media screen and (min-width: 768px) {
   .nav-btn {
@@ -166,6 +166,18 @@ h6 {
 }
 .roomsHero {
   background-image: url("./images/room-2.jpeg");
+  min-height: 60vh;
+}
+.serviceHero {
+  background-image: url("./images/service-1.jpg");
+  min-height: 60vh;
+}
+.aboutHero {
+  background-image: url("./images/about-us.jpg");
+  min-height: 60vh;
+}
+.contactHero {
+  background-image: url("./images/contact-us.jpg");
   min-height: 60vh;
 }
 /* End of Hero */

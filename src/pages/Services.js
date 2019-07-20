@@ -1,12 +1,12 @@
 import React from 'react'
-import Hero from '../components/Hero';
+import Hero from "../components/Hero";
 import Banner from '../components/Banner';
 import  {Link} from 'react-router-dom';
 
-export default function Rooms() {
+export default function Services() {
     return (
-        <Hero hero="roomsHero">
-            <Banner title="our rooms">
+        <Hero hero="serviceHero">
+            <Banner title="Our Services">
                 <Link to='/' className="btn-primary">
                     return home
                 </Link>
